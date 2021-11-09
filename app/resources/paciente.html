@@ -1,0 +1,43 @@
+<!--[main]-->
+<link href="app/resources/styles.css" rel="stylesheet" type="text/css" media="screen" />
+
+<table class="customform" style="width: 100%">
+    <tr>
+        <td colspan="2" class="formtitle">Informações do paciente</td>
+    </tr>
+    <tr>
+        <td width="50%"><b>Nome</b></td>
+        <td width="50%"><span class="formfield">{$nome}</span></td>
+    </tr>
+    <tr>
+        <td><b>Email</b></td>
+        <td><span class="formfield">{$email}</span></td>
+    </tr>
+    <tr>
+        <td><b>Telefone</b></td>
+        <td><span class="formfield">{$telefone}</span></td>
+    </tr>
+    <tr>
+        <td><b>Bairro</b></td>
+        <td><span class="formfield">{$bairro}</span></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <a generator="adianti" href="index.php?class=PacienteForm&method=onEdit&id={$id}&key={$id}">Editar informações do paciente</a>
+        </td>
+    </tr>
+    <!--[consultas]-->
+    <tr>
+        <td class="sectiontitle" colspan=2>Consultas</td>
+    </tr>
+ 
+    <tr bgcolor="#e0e0e0">
+
+    </tr>
+    <tr>
+
+        <td colspan="2">{$cards}</td>
+    </tr>     
+    <!--[/consultas]-->
+</table>
+<!--[/main]-->
